@@ -53,18 +53,19 @@ span.stage {
 /*Collapse*/
 .collapsible {
     background-color: #eeeeee;
+    color: #1b1b1b;
     cursor: pointer;
     padding: 1em;
     width: 100%;
     border: none;
     text-align: left;
     outline: none;
-    font-size: 15px;
+    font-size: 1em;
 }
 .active, .collapsible:hover {
     background-color: #eeeeee;
 }
-  
+
 .content {
     padding: 0 18px;
     max-height: 0;
@@ -72,4 +73,3 @@ span.stage {
     transition: max-height 0.2s ease-out;
     background-color: #eeeeee;
 }
-  
