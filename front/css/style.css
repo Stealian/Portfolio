@@ -50,4 +50,26 @@ span.stage {
     font-weight: 200;
 }
 
-/*Collapse*/
+/*Détails*/
+details, summary {
+    max-width: 98%;
+}
+details {
+    background: #f6f6f6;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 2em 0;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+summary {
+    user-select: none;
+    padding: 1em;
+    font-size: 1em;
+    list-style: none
+}
+details p {
+    line-height: 1.5;
+    padding: 0px 25px 25px;
+    cursor: auto;
+    font-size: 1em;
+}
