@@ -1,3 +1,20 @@
+/*mode clair*/
+:root {
+    --body-background-color: #ffffff;
+    --body-text-color: #1b1b1b;
+    --other-background-color: #eeeeee;
+}
+
+/*mode sombre*/
+@media(prefers-color-scheme:dark) {
+    :root {
+        --body-background-color: #383a40;
+        --body-text-color: #ffffff;
+        --other-background-color: #1b1b1b;
+    }
+}
+
+/*font*/
 @font-face {
     font-family: "Raleway";
     src: url("../font/raleway/Raleway-VariableFont_wght.ttf");
@@ -6,8 +23,8 @@
 
 body,
 html {
-    color: #1b1b1b;
-    background-color: #ffffff;
+    color: var(--body-text-color);
+    background: var(--body-background-color);
     margin: auto;
     font-family: "Raleway", sans-serif;
     position: relative;
@@ -18,7 +35,7 @@ html {
 /*Mise en forme CV*/
 /*Header*/
 header {
-    background-color: #f2f2f2;
+    background: var(--other-background-color);
 }
 header section {
     padding-bottom: 2em;
@@ -78,11 +95,11 @@ details, summary {
     max-width: 98%;
 }
 details {
-    background: #f6f6f6;
+    background: var(--other-background-color);
     cursor: pointer;
     border-radius: 5px;
     margin: 0 2em 0.5em;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    box-shadow: 0 5px 10px var(--other-background-color);
 }
 summary {
     user-select: none;
@@ -99,7 +116,7 @@ details p {
 
 /*Footer*/
 footer {
-    background-color: #f2f2f2;
+    background-color: var(--other-background-color);
 }
 footer section {
     padding-bottom: 2em;
@@ -115,8 +132,11 @@ footer, h3 {
     margin-right: 0;
     text-align: left;
 }
-footer ,p{
+footer, p {
     font-size: 1em;
     margin-left: 1em;
     margin-right: 0;
+}
+footer, a {
+    color: var(--body-text-color);
 }
