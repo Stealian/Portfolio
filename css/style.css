@@ -81,7 +81,7 @@ details {
     background: #f6f6f6;
     cursor: pointer;
     border-radius: 5px;
-    margin: 0 2em 0;
+    margin: 0 2em 0.5em;
     box-shadow: 0 5px 10px rgba(0,0,0,0.3);
 }
 summary {
@@ -104,12 +104,19 @@ footer {
 footer section {
     padding-bottom: 2em;
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
+    margin-left: 2em;
 }
-footer ul {
-    list-style: none;
+footer, h3 {
+    font-size: 1.5em;
+    margin-left: 1em;
+    margin-right: 0;
+    text-align: left;
 }
-footer li {
-    margin-top: 1em;
+footer ,p{
+    font-size: 1em;
+    margin-left: 1em;
+    margin-right: 0;
 }

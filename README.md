@@ -9,6 +9,6 @@ https://stealian.github.io/Portfolio/
 - Bordures :        #eeeeee
 
 ## Mode Sombre
-- Fond :            #1b1b1b
+- Fond :            #383a40
 - Couleur Text :    #ffffff
-- Bordures :        #272727
+- Bordures :        #1b1b1b
