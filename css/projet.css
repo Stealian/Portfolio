@@ -1,0 +1,66 @@
+
+/*mode clair*/
+:root {
+    --body-background-color: #ffffff;
+    --body-text-color: #1b1b1b;
+    --other-background-color: #eeeeee;
+    --image-color: #1b1b1b;
+}
+
+/*mode sombre*/
+@media(prefers-color-scheme:dark) {
+    :root {
+        --body-background-color: #383a40;
+        --body-text-color: #ffffff;
+        --other-background-color: #1b1b1b;
+        --image-color: #ffffff;
+    }
+}
+
+/*font*/
+@font-face {
+    font-family: "Raleway";
+    src: url("../font/raleway/Raleway-VariableFont_wght.ttf");
+    font-weight: 100 1000;
+}
+
+body,
+html {
+    color: var(--body-text-color);
+    background: var(--body-background-color);
+    margin: auto;
+    font-family: "Raleway", sans-serif;
+    position: relative;
+    text-align: justify;
+}
+
+/*Header*/
+header {
+    background: var(--other-background-color);
+}
+header section {
+    padding-bottom: 2em;
+    display: flex;
+    flex-wrap:wrap;
+    margin-left: 3%;
+    margin-right: 3%;
+    justify-content: center;
+}
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-right: 1%;
+    margin-top: 1em;
+}
+header img {
+    width: 3.5em;
+    height: 3.5em;
+    margin-left: 1%;
+    margin-top: 2em;
+}
+/*Main*/
+main{
+    margin: auto;
+    width: 1000px;
+}
+/*Footer*/
