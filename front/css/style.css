@@ -13,14 +13,21 @@ html {
     position: relative;
     text-align: justify;
 }
+
+
 /*Mise en forme CV*/
 h1 {
-    font-size: 2.5rem;
+    font-size: 2.5em;
     margin-left: 3%;
     margin-right: 3%;
 }
 .poste {
-    font-size: 2rem;
+    font-size: 2em;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.accroche {
+    font-style: italic;
     margin-left: 3%;
     margin-right: 3%;
 }
@@ -29,7 +36,7 @@ h2 {
     font-size: 2em;
     text-align: center;
 }
-.listing, h3 {
+.main, h3 {
     font-size: 1.5em;
     margin-left: 1em;
     margin-right: 1em;
