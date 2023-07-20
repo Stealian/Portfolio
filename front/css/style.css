@@ -35,19 +35,19 @@ h2 {
     margin-left: 3%;
     margin-right: 3%;
 }
-.main, h3 {
+main, h3 {
     font-size: 1.5em;
     margin-left: 1em;
     margin-right: 1em;
     text-align: left;
 }
-.listing, h4 {
+main, h4 {
     font-size: 1em;
     margin-left: 2em;
     margin-right: 1em;
     text-align: left;
 }
-.listing, p {
+main, p {
     font-size: 1em;
     margin-left: 2em;
     margin-right: 1em;
@@ -74,8 +74,8 @@ summary {
     list-style: none
 }
 details p {
-    line-height: 1.5;
-    padding: 0px 25px 25px;
+    line-height: 1.5em;
+    padding: 0px 1em 1em;
     cursor: auto;
     font-size: 1em;
 }
